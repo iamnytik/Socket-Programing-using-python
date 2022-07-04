@@ -9,6 +9,7 @@ A simple Programing simulating Emergency services Complaint Registration using T
   it was tested extensively on a GNU/Linux machine having Python 3.8.10 interperter and a Windows 10 Computer.
 
 ## How does this work?
+  ![aristocat](https://user-images.githubusercontent.com/91942626/177172149-afde809b-ab5b-4420-863e-63b6db89ba26.jpeg)
 
   magic.
 ## How To Run This?
