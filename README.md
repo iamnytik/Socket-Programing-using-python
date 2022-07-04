@@ -8,10 +8,10 @@ A simple Programing simulating Emergency services Complaint Registration using T
   Also,this code should be able to run in any OS/machine with a built-in python 3.x Interperter it should be noted that 
   it was tested extensively on a GNU/Linux machine having Python 3.8.10 interperter and a Windows 10 Computer.
 
-##How does this work?
+## How does this work?
 
   magic.
-##How To Run This?
+## How To Run This?
 
  * Run server.py
     ```python3 server.py'''
