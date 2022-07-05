@@ -21,13 +21,23 @@ and gets connected to the service server to register the complaint.
    
    4.The service_server then sends an acknowledgement back to the client and  all connections are closed
    
-   
-## How To Run This?
-1)Download this repo as a zip file or git clone this repository
-    
-    git clone
+##Before you Run!
 
-2)Create a sub directory/folder called COMPLAINTS
+
+  Please note that the unmodified source code can run only within the same machine
+  but to run it across  two or three machines ensure that
+  these programs run within the same netwrok/subnet 
+  to do that type open terminal and type ifconfig (or ipconfig on windows command )
+  and ensure that first 3 octets are same refer to the server.py source code comments and modify accodringly.
+    
+## How To Run This?
+1)Download this repo as a zip&extract it  or git clone this repository
+    
+    git clone https://github.com/Fat-Krow/Socket-Programing-using-python.git
+
+2)Create a sub directory/folder inside the downloaded repository called COMPLAINTS
+    
+    mkdir COMPLAINTS
 
 3)Run the server
  
