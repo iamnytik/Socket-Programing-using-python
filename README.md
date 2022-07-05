@@ -49,4 +49,9 @@ and gets connected to the service server to register the complaint.
 
     python3 client.py
 
-
+##Still Confused?
+  
+  Here is a helpful vedio to get you started with Socket Programming with python by channel called Tech with Tim
+  https://www.youtube.com/watch?v=3QiPPX-KeSc
+  
+  I did find  it very useful when I started out :) 
