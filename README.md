@@ -23,15 +23,21 @@ and gets connected to the service server to register the complaint.
    
    
 ## How To Run This?
-1)Run the server
+1)Download this repo as a zip file or git clone this repository
+    
+    git clone
+
+2)Create a sub directory/folder called COMPLAINTS
+
+3)Run the server
  
     python3 server.py
     
-2)Run the Service server
+4)Run the Service server
 
     python3 service_server.py
     
-3)Finally run  the client
+5)Finally run  the client
 
     python3 client.py
 
