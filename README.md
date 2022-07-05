@@ -8,7 +8,7 @@ and gets connected to the service server to register the complaint.
   so ensure that the client,server and the service_server processes are all connected within the same netwrok/router.
 
   Also,this code should be able to run in any OS/machine with a built-in python 3.x Interperter it should be noted that 
-  it was tested extensively on a GNU/Linux machine having Python 3.8.10 interperter and a Windows 10 Computer.
+  it was tested extensively on a GNU/Linux machine having Python 3.8.10 interperter and a Windows 10 Machine.
 
 ## How does this work?
   ![info.png](https://user-images.githubusercontent.com/91942626/177193455-9dff60b9-d379-4493-bbcd-58e0a644c898.png)
@@ -34,4 +34,5 @@ and gets connected to the service server to register the complaint.
 3)Finally run  the client
 
     python3 client.py
+
 
