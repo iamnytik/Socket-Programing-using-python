@@ -13,25 +13,17 @@ and gets connected to the service server to register the complaint.
 ## How does this work?
   ![info.png](https://user-images.githubusercontent.com/91942626/177193455-9dff60b9-d379-4493-bbcd-58e0a644c898.png)
 
+   1.The Client process Establishes a connection with the server processs requesting a paticular Emergency service ("police"/"medical")
+   2.The server then responds with the I.P and port number which the client uses to contact the requested service
+   3.The client then connects with  the service_server and fills up the data form which is registered as new file in the COMPLAINTS folder
+   4.The service_server then sends an acknowledgement back to the client and  all connections are closed
    
 ## How To Run This?
 1)Run the server
  
-    ```sh adb install xyz.apk```
+    ```python3 server.py```
 2)Run the Service server
     ```python3 service_server.py```
 3)Finally run  the client
     ```python3 client.py```
-##
-Anbox is currently suited for the desktop use case but can be used on mobile
-operating systems like [Ubuntu Touch](https://ubuntu-touch.io/) or
-[postmarketOS](https://postmarketos.org)
-([installation instructions](https://wiki.postmarketos.org/wiki/Anbox)).
-However this is still a work in progress.
 
-The Android runtime environment ships with a minimal customized Android system
-image based on the [Android Open Source Project](https://source.android.com/).
-The used image is currently based on Android 7.1.1
-```sh
-adb install xyz.apk
-```
