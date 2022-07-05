@@ -3,12 +3,13 @@ import threading
 
 # amount of bytes that can be sent by clientn to server
 HEADER = 64
-PORT = 8080
+PORT = 8080#this can be changed if port 8080 is already under use by another process
 FORMAT = 'utf-8'
 DISCONNECTED = "!DISCONNECTED"
 # getting ip addr
-SERVER = socket.gethostbyname(socket.gethostname())
-#SERVER = "192.168.137.2"
+SERVER = socket.gethostbyname(socket.gethostname())#this returns localhost IP but can be changed to something as shown below
+#SERVER = "192.168.137.2" use ifconfig(or ipconfig) to select the right IP number and ensure that this IP(and the service IP below) lies in the same network
+
 # creating a socket that looks for IPV4 address and takes TCP service from transport layer.
 ADDR = (SERVER, PORT)
 
@@ -28,10 +29,10 @@ def handle_client(connectionSocket, addr):
                 if msg == DISCONNECTED:
                     connected = False
                     print(connectionSocket)
-                elif msg == "medical":
-                    ip_to_be_sent = "127.0.1.1 8081"
-                elif msg == "police":
-                    ip_to_be_sent = "127.0.1.1 8081"
+                elif msg == "medical":#medical service IP
+                    ip_to_be_sent = "127.0.1.1 8081"#the IP and Port address can be changed 
+                elif msg == "police":#police service IP
+                    ip_to_be_sent = "127.0.1.1 8081"#the IP and Port address can be changed 
                 else:
                     ip_to_be_sent = DISCONNECTED
                 #print(f"{msg}")

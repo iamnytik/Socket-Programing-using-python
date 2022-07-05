@@ -3,12 +3,12 @@ import threading
 import os
 # amount of bytes that can be sent by clientn to server
 HEADER = 64
-PORT = 8081
+PORT = 8081#this can be changed the port 8081 is already under use by another process
 FORMAT = 'utf-8'
 DISCONNECTED = "!DISCONNECTED"
 DIR = "COMPLAINTS"#The service_server programs uses a directory called COMPLAINTS wheere it stores each individuals complaints
 #To be changed
-SERVER = socket.gethostbyname(socket.gethostname())
+SERVER = socket.gethostbyname(socket.gethostname())#returns local host I.P but can be changed refer to server.py for more details
 #SERVER = "192.168.137.2"
 # creating a socket that looks for IPV4 address and takes TCP service from transport layer.
 ADDR  = (SERVER, PORT)
