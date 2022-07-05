@@ -21,9 +21,7 @@ and gets connected to the service server to register the complaint.
    
    4.The service_server then sends an acknowledgement back to the client and  all connections are closed
    
-##Before you Run!
-
-
+## How to run  this?
   Please note that the unmodified source code can run only within the same machine
   but to run it across  two or three machines ensure that
   these programs run within the same netwrok/subnet 
