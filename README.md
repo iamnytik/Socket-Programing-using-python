@@ -11,7 +11,7 @@ and gets connected to the service server to register the complaint.
   it was tested extensively on a GNU/Linux machine having Python 3.8.10 interperter and a Windows 10 Machine.
 
 ## How does this work?
-  ![info.png](https://user-images.githubusercontent.com/91942626/177193455-9dff60b9-d379-4493-bbcd-58e0a644c898.png)
+   ![info.png](https://user-images.githubusercontent.com/91942626/177193455-9dff60b9-d379-4493-bbcd-58e0a644c898.png)
 
    1.The Client process Establishes a connection with the server processs requesting a paticular Emergency service ("police"/"medical")
    
