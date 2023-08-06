@@ -27,6 +27,7 @@ and gets connected to the service server to register the complaint.
   these programs run within the same netwrok/subnet 
   to do that type open terminal and type ifconfig (or ipconfig on windows command )
   and ensure that first 3 octets are same refer to the server.py source code comments and modify accodringly.
+
     
 ## How To Run This?
 1)Download this repo as a zip&extract it  or git clone this repository
